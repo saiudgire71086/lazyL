@@ -1,0 +1,9 @@
+<div>
+  <h4>{{data.user}}</h4>
+  <p *ngFor='let in of counter(data.checkbox) ;let i = index'>
+    <input type="checkbox" name="checkbox{{i+1}}" id="checkbox{{i+1}}"> Checkbox{{i+1}}
+  </p>
+  <p *ngFor='let in of counter(data.textbox) ;let i = index'>
+    <input type="text" name="textfield{{i+1}}" id="textfield{{i+1}}" placeholder="TextField{{i+1}}">
+  </p>
+</div>

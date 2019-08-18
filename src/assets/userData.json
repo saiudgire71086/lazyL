@@ -1,0 +1,19 @@
+[
+      {
+        "name": "user1",
+        "data": [
+            { 
+              "checkbox": 2,
+              "textbox": 4
+            }
+        ]
+       
+    },
+     {
+        "name":"user2",
+        "data": [
+            { "checkbox": 5,
+              "textbox": 10	}
+        ]	
+    }
+]

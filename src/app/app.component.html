@@ -1,0 +1,15 @@
+<app-header></app-header>
+   <!-- <img [src]= "imageUrl | default :'http://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png' : true" width="100px" />-->
+ <div class="container">
+   <ul>
+      <li *ngFor="let user of userList; let i = index;">
+         <a (click)="userClick(i)">{{user.name}}</a>
+      </li>
+      <!-- <li (click)="userClick('user1')">User1</li>
+      <li (click)="userClick('user2')">User2</li> -->
+   </ul>
+   <div class="ad-banner-example">
+      <ng-template ct-host></ng-template>
+   </div>
+</div>
+ <app-footer></app-footer>
